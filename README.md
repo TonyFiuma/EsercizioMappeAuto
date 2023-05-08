@@ -1,5 +1,5 @@
-Esercizio Auto Academy ISCS
-/*
+# Esercizio Auto Academy ISCS
+
 
 ScanTextConEnum
 Leggere un file con informazioni da decodificare
@@ -37,18 +37,8 @@ String[] rowsGood(); // Righe corrette
 String[] autoProducers() // [FIAT,TESLA,..] ordine crescente
 boolean existsProducer(String autoProducer)
 boolean existsModel(String autoProducer)
-Enumeration EnumAuto
-........
-........ */
-public enum EnumAuto { STELLANTIS("TIPO", "PANDA", "500") , AUDI("A4") , TESLA("T1");
 
-// Instance variables
-String[] arModello;
 
-// Constructors
-EnumAuto(String ... modello) {
-	this.arModello = modello;
-}
 
 /*
  * Restituisce i modelli della casa automobilistica
